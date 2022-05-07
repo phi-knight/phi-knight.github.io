@@ -38,6 +38,7 @@ $
 	\newcommand{\Proj}{\text{Proj}}
 	\renewcommand{\span}{\text{span}}
 	\newcommand{\dotp}[1]{\langle#1\rangle}
+	\newcommand{\dsum}{\displaystyle\sum}
 $
 </div>
 	
@@ -57,6 +58,6 @@ proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}
 proof. firstly, since $\norm{A}\le 1$, $As=s\iff A^*s=s$, namely $A$ and $A^*$ have the same fixed points. our claim is of linear nature in $x$, and immediate if $x\in M$. 
 	so wlog let $x\in M^\perp=\ker(I-A^*)\perp=\overline{\img (I-A)}$. we'll show $\LHS(x)\to 0$. 
 	fix $\eps$. pick $h\in \img(I-A)$, $h=y-Ay$ so that $\norm{x-h}\le \eps$. 
-	then $\dfrac{1}{N+1}\sum_{k=0}^N A^k h=\dfrac{1}{N+1}(y-A^{N+1}y)$ has norm $\le \eps$ for $N\ge N_0$. 
-	thus $\norm{\dfrac{1}{N+1}\sum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, and we are done. 
+	then $\frac{1}{N+1}\dsum_{k=0}^N A^k h=\frac{1}{N+1}(y-A^{N+1}y)$ is of norm $\le \eps$ for $N\ge N_0$. 
+	since $\frac{1}{N+1}\dsum_{k=0}^N A^k$ is a contraction, we have $\norm{\frac{1}{N+1}\dsum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, finishing our proof. 
 </html>
