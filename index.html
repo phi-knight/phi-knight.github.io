@@ -11,7 +11,8 @@
 </head>
 
 <div style="display: none;">
-$
+$	
+	\newcommand{\eps}{\varepsilon}
 	\newcommand{\C}{\mathbf{C}}
 	\newcommand{\R}{\mathbf{R}}
 	\newcommand{\Z}{\mathbf{Z}}
@@ -31,6 +32,9 @@ $
 	\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 	\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
 	\newcommand{\End}{\text{End}}
+	\newcommand{\img}{\text{img}}
+	\newcommand{\LHS}{\text{LHS}}
+	\newcommand{\RHS}{\text{RHS}}
 	\newcommand{\Proj}{\text{Proj}}
 	\renewcommand{\span}{\text{span}}
 	\newcommand{\dotp}[1]{\langle#1\rangle}
@@ -50,5 +54,9 @@ proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}
 	$$\dfrac{1}{N+1}\sum_{k=0}^{N} A^k x \to \Proj_M x$$
 	for all $x\in H$, where $M=\{s\in H\mid As=s\}$.
 <br>
-proof. 
+proof. firstly, since $\norm{A}\le 1$, $As=s\iff A^*s=s$, namely $A$ and $A^*$ have the same fixed points. our claim is of linear nature in $x$, and immediate if $x\in M$. 
+	so wlog let $x\in M^\perp=\ker(I-A^*)\perp=\overline{\img (I-A)}$. we'll show $\LHS(x)\to 0$. 
+	fix $\eps$. pick $h\in \img(I-A)$, $h=y-Ay$ so that $\norm{x-h}\le \eps$. 
+	then $\dfrac{1}{N+1}\sum_{k=0}^N A^k h=\dfrac{1}{N+1}(y-A^{N+1}y)$ has norm $\le \eps$ for $N\ge N_0$. 
+	thus $\norm{\dfrac{1}{N+1}\sum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, and we are done. 
 </html>
