@@ -10,15 +10,44 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
+<div style="display: none;">
+$
+	\newcommand{\C}{\mathbf{C}}
+	\newcommand{\R}{\mathbf{R}}
+	\newcommand{\Z}{\mathbf{Z}}
+	\newcommand{\N}{\mathbf{N}}
+	\newcommand{\F}{\mathbf{F}}
+	\newcommand{\U}{\mathbf{U}}
+	\newcommand{\D}{\mathbf{D}}
+	\newcommand{\E}{\mathbf{E}}
+	\newcommand{\SS}{\mathfrak{S}}
+	\newcommand{\d}{\text{d}}
+	\renewcommand{\to}{\longrightarrow}
+	\newcommand{\-}{\setminus}
+	\newcommand{\disp}{\displaystyle}
+	\newcommand{\inv}{^{-1}}
+	\newcommand{\SL}{\text{SL}}
+	\newcommand{\bij}{\longleftrightarrow}
+	\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+	\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+	\newcommand{\End}{\text{End}}
+	\newcommand{\Proj}{\text{Proj}}
+	\renewcommand{\span}{\text{span}}
+	\newcommand{\dotp}[1]{\langle#1\rangle}
+$
+</div>
+	
 <div style="float : right;" id="settings">
 <input type="color" value="#ffffff" id="backgroundColor" onchange="paintBackground()">
 <input type="color" value="#000000" id="fontColor" onchange="paintFont()">
 <select id="input-font" class="input" onchange="changeFontStyle (this);"><option value="Garamond" selected="selected">Garamond</option><option value="Times New Roman">Roman</option><option value="Arial">Arial</option><option value="Courier New">monospace</option></select>
 </div> 
 <br>
-hello world
 
-  
-
+hello world.
+<br>
+proposition. [von Neumann] let $H$ be a hilbert space, and let $A\in B(H)$, $\norm{A}\le 1$ be a contraction on $H$. let $M=\{s\in H\mid As=s\}$. then 
+	$$\dfrac{1}{N+1}\sum_{k=0}^{N} A^k x \to \Proj_M x$$
+	for all $x\in H$.
 
 </html>
