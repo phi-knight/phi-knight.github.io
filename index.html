@@ -9,7 +9,7 @@
 	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-
+	
 <div style="display: none;">
 $	
 	\newcommand{\eps}{\varepsilon}
@@ -48,33 +48,23 @@ $
 <select id="input-font" class="input" onchange="changeFontStyle (this);"><option value="Garamond" selected="selected">Garamond</option><option value="Times New Roman">Roman</option><option value="Arial">Arial</option><option value="Courier New">monospace</option></select>
 </div> 
 <br>
-
-hello world.
+about : Tom Moshaiov's mathematical notes. currently fairly unorganized and severely incomplete. 
+<br>
+contanct : tom dot moshaiov at gmail dot com.
 <br>
 proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}\le 1$ be a contraction on $H$. then $\forall x\in H$ the sequence $A^k x$ converges in the Cesàro sense to the fixed point of $A$ closest to $x$. that is, 
 	$$\dfrac{1}{N+1}\sum_{k=0}^{N} A^k x \to \Proj_M x$$
 	for all $x\in H$, where $M=\{s\in H\mid As=s\}$.
 <br>
-
-<button onclick="hs(x1)">proof.</button>
-
-	<div id="x1" style="display:none;">
+<span class="btn" onclick="hs('x1')"><u>proof</u></span> <div id="x1" style="display: none;">
 	recall as $\norm{A}\le 1$, that $A$ and $A^*$ have the same fixed points. now, our claim is of linear nature in $x$, and immediate if $x\in M$. 
 	hence wlog let $x\in M^\perp=\ker(I-A^*)^\perp=\overline{\img (I-A)}$, and we'll show $\LHS(x)\to 0$. 
 	fix $\eps$. pick $h\in \img(I-A)$, $h=y-Ay$ so that $\norm{x-h}\le \eps$. 
 	then $\dfrac{1}{N+1}\dsum_{k=0}^N A^k h=\frac{1}{N+1}(y-A^{N+1}y)$ is of norm $\le \eps$ for $N\ge N_0$. 
 	since $\dfrac{1}{N+1}\dsum_{k=0}^N A^k$ is a contraction, we have $\norm{\dfrac{1}{N+1}\dsum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, finishing our proof. 
-	</div>
-	
-goodbye world
+</div>
+<br>
+
 </html>
 
-<script>
-	function hs(id) {
-		var x = document.getElementById(id)
-		if (x.style.display==="none")
-			x.style.display = "block"
-		else
-			x.style.display = "none"
-	}
-</script>
+
