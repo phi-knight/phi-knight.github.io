@@ -92,7 +92,7 @@ $\forall\eps\xexists \delta : d(x,y)\le\delta\implies |f(x)-f(y)|\le\eps\xforall
 let $a_k$ form a dense sequence in $X$. let inductively, let $f_n^0=f_n$ and $f_n^{k}$ be a subsequence of $f_n^{k-1}$ such that $f_n^k(a_k)$ converges. 
 the diagonal subsequence $g_n=f_n^n$ has the property that $g_n$ converges at each point of $A=\{a_k\}$. 
 we will show that $g_n$ is uniformly Cauchy on $X$. fix $\eps$. 
-let $\delta$ be given from equiuniform continuity. let $X=B_\delta(s_1)\cup\dots\cup B_\delta(s_r)$, $s_i\in A$ (where $r=r(\eps),s_i=s_i(\eps)$), and finally let $N$ be such that 
+let $\delta$ be given from equiuniform continuity, then let $X=B_\delta(s_1)\cup\dots\cup B_\delta(s_r)$ for $s_i\in A$ (where $s_i,r$ depend on $\delta$) and finally let $N$ be such that 
 $|g_n(s_i)-g_m(s_i)|\le \eps\xforall n,m\ge N\xforall i$. by our construction, given any $x\in X$ we have 
 $|g_n(x)-g_m(x)|\le 3\eps\xforall n,m\ge N$ so that $g_n$ is uniformly Cauchy as we wanted. 
 </div>
