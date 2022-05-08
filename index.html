@@ -50,12 +50,14 @@ $
 <br>
 about : Tom Moshaiov's mathematical notes. currently chaotic and severely incomplete. 
 <br>
+<br>
 contanct : tom dot moshaiov at gmail dot com.
 <br>
 <br>
 proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}\le 1$ be a contraction on $H$. then $\forall x\in H$ the sequence $A^k x$ converges in the Cesàro sense to the fixed point of $A$ closest to $x$. that is, 
 	$$\dfrac{1}{N+1}\sum_{k=0}^{N} A^k x \to \Proj_M x$$
 	for all $x\in H$, where $M=\{s\in H\mid As=s\}$.
+<br>
 <br>
 <span class="btn" onclick="hs('x1')"><u>proof</u></span> <div id="x1" style="display: none;">
 	recall as $\norm{A}\le 1$, that $A$ and $A^*$ have the same fixed points. now, our claim is of linear nature in $x$, and immediate if $x\in M$. 
@@ -65,13 +67,15 @@ proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}
 	since $\dfrac{1}{N+1}\dsum_{k=0}^N A^k$ is a contraction, we have $\norm{\dfrac{1}{N+1}\dsum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, finishing our proof. 
 </div>
 <br>
+<br>
 exercise. let $x_n$ be a sequence in a metric space $(X,d)$. if $\sum d(x_n,x_{n+1}) <\infty$ converges then $x_n$ is Cauchy.
+<br>
 <br>
 proposition. [Banach] let $(X,d)$ be a complete metric space, and $f:X\to X$ be Lipschitz with constant $q<1$. then $f$ has a unique fixed point $x^*$. 
 	moreover, for any $x\in X$ the sequence $x,f(x),f(f(x)),\dots$ converges to $x^*$.
 <br>
-exercise. prove Banach's fixed point theorem.
 <br>
+exercise. prove Banach's fixed point theorem.
 </html>
 
 
