@@ -3,7 +3,11 @@ include the following :
   putnam 2021 b5
   
   
-  
+read the following : 
+  proof of Jacobi's r_4 formula by Zeilberger [2]
+
 
 references :
 [1] https://www.math.bgu.ac.il/~oshalit/SneakyProofMaxPrincipleAMM_2ndRevision.pdf
+[2] https://arxiv.org/pdf/math/9206203v1.pdf
+
