@@ -5,9 +5,11 @@ include the following :
   
 read the following : 
   proof of Jacobi's r_4 formula by Zeilberger [2]
+  on the chromatic polynomial [3]
 
 
 references :
 [1] https://www.math.bgu.ac.il/~oshalit/SneakyProofMaxPrincipleAMM_2ndRevision.pdf
 [2] https://arxiv.org/pdf/math/9206203v1.pdf
+[3] https://arxiv.org/pdf/2106.03647.pdf
 
