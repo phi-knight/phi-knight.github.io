@@ -1,7 +1,9 @@
 body {
       font-family: Garamond;
-      line-height: 2.5;
-      font-size: 130%;
+      line-height: 2;
+      font-size: 122%;
       background-color: white;
       color: black;
 }
+
+.btn {cursor: pointer;}
