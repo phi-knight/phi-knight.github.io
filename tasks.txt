@@ -1,0 +1,8 @@
+include the following :
+  orr shalit's proof of maximum modulus principle [1]
+  
+  
+  
+
+references :
+[1] https://www.math.bgu.ac.il/~oshalit/SneakyProofMaxPrincipleAMM_2ndRevision.pdf
