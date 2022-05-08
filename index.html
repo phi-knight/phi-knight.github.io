@@ -22,6 +22,7 @@ $
 	\newcommand{\D}{\mathbf{D}}
 	\newcommand{\E}{\mathbf{E}}
 	\newcommand{\SS}{\mathfrak{S}}
+	\newcommand{\CC}{\mathscr{C}}
 	\newcommand{\d}{\text{d}}
 	\renewcommand{\to}{\longrightarrow}
 	\newcommand{\-}{\setminus}
@@ -39,6 +40,9 @@ $
 	\renewcommand{\span}{\text{span}}
 	\newcommand{\dotp}[1]{\langle#1\rangle}
 	\newcommand{\dsum}{\displaystyle\sum}
+	\newcommand{\xexists}{\phantom{,}\exists}
+	\newcommand{\xforall}{\phantom{,}\forall}
+	\newcommand{\ov}{\overline}
 $
 </div>
 	
@@ -48,9 +52,7 @@ $
 <select id="input-font" class="input" onchange="changeFontStyle (this);"><option value="Garamond" selected="selected">Garamond</option><option value="Times New Roman">Roman</option><option value="Arial">Arial</option><option value="Courier New">monospace</option></select>
 </div> 
 <br>
-about : Tom Moshaiov's mathematical notes. currently chaotic and severely incomplete. 
-<br>
-<br>
+about : Tom Moshaiov's exercise focused mathematical notes. currently chaotic and severely incomplete. <br>
 contanct : tom dot moshaiov at gmail dot com.
 <br>
 <br>
@@ -68,7 +70,7 @@ proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}
 </div>
 <br>
 <br>
-exercise. let $x_n$ be a sequence in a metric space $(X,d)$. if $\sum d(x_n,x_{n+1}) <\infty$ converges then $x_n$ is Cauchy.
+exercise. let $x_n$ be a sequence in a metric space $(X,d)$. if $\sum_n d(x_n,x_{n+1}) <\infty$ converges then $x_n$ is Cauchy.
 <br>
 <br>
 proposition. [Banach] let $(X,d)$ be a complete metric space, and $f:X\to X$ be Lipschitz with constant $q<1$. then $f$ has a unique fixed point $x^*$. 
@@ -76,6 +78,26 @@ proposition. [Banach] let $(X,d)$ be a complete metric space, and $f:X\to X$ be 
 <br>
 <br>
 exercise. prove Banach's fixed point theorem.
+<br>
+<br>
+exercise. let $(X,d)$ be a compact metric space. then there exists a countable subset $A$ such that $\ov{A}=X$.
+<br>
+<br>
+proposition. [Ascoli-Arzela] let $(X,d)$ be a compact metric space, and $(f_n)_{n\ge 1}\in\CC(X)$ be a sequence of continuous functions on $X$. 
+suppose the sequence is uniformly bounded, namely $\exists M_0 : |f_n(x)|\le M_0 \xforall x, n$ and suppose also the sequence is equiuniformly continuous, namely 
+$\forall\eps\xexists \delta : d(x,y)\le\delta\implies |f(x)-f(y)|\le\eps\xforall x,y,n$ (where $\delta$ depends solely on $\eps$). then there exists a subsequence $f_{n_k}$ which converges uniformly on $X$.
+<br>
+<br>
+<span class="btn" onclick="hs('x2')"><u>proof</u></span> <div id="x2" style="display: none;">
+let $a_k$ form a dense sequence in $X$. let inductively, let $f_n^0=f_n$ and $f_n^{k}$ be a subsequence of $f_n^{k-1}$ such that $f_n^k(a_k)$ converges. 
+the diagonal subsequence $g_n=f_n^n$ has the property that $g_n$ converges at each point of $A=\{a_k\}$. 
+we will show that $g_n$ is uniformly Cauchy on $X$. fix $\eps$. 
+let $\delta$ be given from equiuniform continuity. let $X=B_\delta(s_1)\cup\dots\cup B_\delta(s_r)$, $s_i\in A$ (where $r=r(\eps),s_i=s_i(\eps)$), and finally let $N$ be such that 
+$|g_n(s_i)-g_m(s_i)|\le \eps\xforall n,m\ge N\xforall i$. by our construction, given any $x\in X$ we have 
+$|g_n(x)-g_m(x)|\le 3\eps\xforall n,m\ge N$ so that $g_n$ is uniformly Cauchy as we wanted. 
+</div>
+<br>
+<br>
 </html>
 
 
