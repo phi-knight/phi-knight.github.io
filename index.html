@@ -55,9 +55,13 @@ proposition. [von Neumann] let $H$ be a Hilbert space and $A\in B(H)$, $\norm{A}
 	$$\dfrac{1}{N+1}\sum_{k=0}^{N} A^k x \to \Proj_M x$$
 	for all $x\in H$, where $M=\{s\in H\mid As=s\}$.
 <br>
+	<div id="x1" style="display:none;">
 proof. 	recall as $\norm{A}\le 1$, that $A$ and $A^*$ have the same fixed points. now, our claim is of linear nature in $x$, and immediate if $x\in M$. 
 	hence wlog let $x\in M^\perp=\ker(I-A^*)^\perp=\overline{\img (I-A)}$, and we'll show $\LHS(x)\to 0$. 
 	fix $\eps$. pick $h\in \img(I-A)$, $h=y-Ay$ so that $\norm{x-h}\le \eps$. 
 	then $\dfrac{1}{N+1}\dsum_{k=0}^N A^k h=\frac{1}{N+1}(y-A^{N+1}y)$ is of norm $\le \eps$ for $N\ge N_0$. 
 	since $\dfrac{1}{N+1}\dsum_{k=0}^N A^k$ is a contraction, we have $\norm{\dfrac{1}{N+1}\dsum_{k=0}^N A^k x}\le 2\eps$ for $N\ge N_0$, finishing our proof. 
+	</div>
+	
+goodbye world
 </html>
