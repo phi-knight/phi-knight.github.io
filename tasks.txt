@@ -1,7 +1,8 @@
 include the following :
   orr shalit's proof of maximum modulus principle [1]
   putnam 2021 b5
-  
+  schur's proof of cyclotomic irreducibility [4 p7]
+  frobenius endomorphism proof of cyclotomic irreducibility [5 p10]
   
 read the following : 
   proof of Jacobi's r_4 formula by Zeilberger [2]
@@ -12,4 +13,5 @@ references :
 [1] https://www.math.bgu.ac.il/~oshalit/SneakyProofMaxPrincipleAMM_2ndRevision.pdf
 [2] https://arxiv.org/pdf/math/9206203v1.pdf
 [3] https://arxiv.org/pdf/2106.03647.pdf
-
+[4] https://www.lehigh.edu/~shw2/c-poly/several_proofs.pdf
+[5] http://math.uchicago.edu/~may/REU2015/REUPapers/Park.pdf
