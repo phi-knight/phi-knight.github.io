@@ -1,7 +1,48 @@
+Course notes
+  (AMS)                   https://www.ams.org/open-math-notes/
+  (Chua)                  https://dec41.user.srcf.net/notes/
+  (Garza)                 dzackgarza.com/writing/
+  (Milne)                 https://www.jmilne.org/math/CourseNotes/index.html
+  (Gareth)                https://tartarus.org/gareth/maths/notes/
+  (Curtis Mcmullen)       https://people.math.harvard.edu/~ctm/courses.html
+  (Sophie Morel)          http://perso.ens-lyon.fr/sophie.morel/
+  (Garrett)               https://www-users.cse.umn.edu/~garrett/m/v/
+  (Gorodnik)              https://www.math.uzh.ch/gorodnik/teaching.html
+  (Sudan)                 http://madhu.seas.harvard.edu/MIT/FT98/course.html
+  (basic alg top)         https://sili-math.github.io/AT2020/Algebraic-Topology.2020.pdf            
+  (several cmplx vars)    https://staff.science.uva.nl/j.j.o.o.wiegerinck/edu/scv/scvboek.pdf
+  (index theory)          https://s3.cern.ch/inspire-prod-files-5/59dfc2436bdffc9e5e865aa764fb8d38
+  (probability theory)    https://web.stanford.edu/class/stats310c/NOTES/lnotes.pdf
+  (etc)                   
+      https://minterscompactness.wordpress.com/lecture-notes/
+      https://castel.dev/notes
+      https://scholar.harvard.edu/rastern/course-notes
+      http://www.sfu.ca/~jlevinso
+
+
+Papers
+  (proof of Jacobi triple product) https://www.ams.org/journals/proc/1965-016-02/S0002-9939-1965-0171725-X/S0002-9939-1965-0171725-X.pdf
+  (simple proof of Jacobi two squares identity) https://web.maths.unsw.edu.au/~mikeh/webpapers/paper21.pdf
+  (two theorems of Gauss) https://msp.org/pjm/1958/8-3/pjm-v8-n3-p19-s.pdf
+  (a proof of quadratic reciprocity) http://math.univ-lyon1.fr/~tchoudjem/ENSEIGNEMENT/PREPA_AGREG/corps_26oct.pdf
+  
+Books
+  Eberhard Freitag, Rolf Busam - Complex analysis
+  Steven G. Krantz - Geometric Function Theory, Explorations in Complex Analysis
+  Complex Analysis (Princeton Lectures in Analysis, Volume II)
+  from calculus to cohomology
+  treatise on analysis
+  Newman - analytic number theory
+  Apostol - introduction to analytic number theory
+  Maass - modular functions off one complex variable
+  https://www.maths.ed.ac.uk/~v1ranick/papers/iversensheaves.pdf
+  
+Videos
+  (Curtis Mcmullen youtube)   https://www.youtube.com/channel/UCZCipIb4VysbPS9_tmL0CEQ/playlists
+
+etc
 https://kskedlaya.org/putnam-archive
-http://www.sfu.ca/~jlevinso
 https://icerm.brown.edu/video_archive
 (math sounds) https://drive.google.com/file/d/1sSkrVcKM-Ru0X_IPNvAZF7AnNSB8a0be/view
-(index theory) https://s3.cern.ch/inspire-prod-files-5/59dfc2436bdffc9e5e865aa764fb8d38
 (straight from the book) http://www.hexagon.edu.vn/images/resources/upload/48f705559d5da29b51bb76fc555d8c3c/problems-from-the-book-1-pdf_1380724174.pdf
 https://freedommathdance.blogspot.com/
