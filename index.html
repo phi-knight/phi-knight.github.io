@@ -119,16 +119,17 @@ and will be off otherwise. (each lamp has two neighbours, except the two edge la
 that all lamps will be turned off eventually if and only if $n+1$ is a power of two.
 <br>
 <br>	
-<span class="btn" onclick="hs('x3')"><u>proof</u></span> <div id="x3" style="display: none;">
+<span class="btn" onclick="hs('x3')"><u>solution</u></span> <div id="x3" style="display: none;">
 letting $1$ denote on and $0$ off, we find the equivalent formulation : let $T:F_{2}^{n}\to F_{2}^{n}$ 
 be the map $(x_{1},x_{2},x_{3}\dots,x_{n})\mapsto(x_{2},x_{1}+x_{3},x_{2}+x_{4},\dots,x_{n-1})$. 
 (i.e. given by the matrix $T_{ij}=\delta_{|i-j|=1}$). then $T$ is nilpotent over $F_2$ iff $n+1$ is a power of two.
 firstly, $Tx=0\implies x=0$ if $n$ is even, and $Tx=0\implies x=0\text{ or }x=(1,0,1,\dots,0,1)$ if $n$ is odd. 
-so $T$ is invertible iff $n$ is even. given the base case $T_{n=1}=0$, it suffices to show : $T_{n}$ is nilpotent iff $T_{2n+1}$ is nilpotent. <br>
+so $T$ is invertible iff $n$ is even. given the base case $T_{n=1}=0$, it suffices to show : $T_{n}$ is nilpotent iff $T_{2n+1}$ is nilpotent.
 we give three solutions.
 <br>
 <br>	
-solution $\#1$. let $f_{n}(x)=\det(x-T_{n})$ be the characteristic polynomial of $T_{n}$ over $F_{2}$. 
+solution $\#1$. <br>
+let $f_{n}(x)=\det(x-T_{n})$ be the characteristic polynomial of $T_{n}$ over $F_{2}$. 
 then $f_{0}(x)=1$, $f_{1}(x)=x$, and (as a tridiagonal determinant) $f_{n}(x)=xf_{n-1}(x)+f_{n-2}(x)$ for $n\ge2$. 
 we list the first few $f_{n}(x)$. <br>
 $f_{2}(x)=x^{2}+1$, $f_{3}(x)=x^{3}$, $f_{4}(x)=x^{4}+x^{2}+1$, $f_{5}(x)=x^{5}+x$, $f_{6}(x)=x^{6}+x^{4}+1$, 
