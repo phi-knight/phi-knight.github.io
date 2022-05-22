@@ -13,18 +13,14 @@ Course notes
   (several cmplx vars)    https://staff.science.uva.nl/j.j.o.o.wiegerinck/edu/scv/scvboek.pdf
   (index theory)          https://s3.cern.ch/inspire-prod-files-5/59dfc2436bdffc9e5e865aa764fb8d38
   (probability theory)    https://web.stanford.edu/class/stats310c/NOTES/lnotes.pdf
+  (toric varieties)       https://dacox.people.amherst.edu/lectures/coxcimpa.pdf
+  (computational algebra) http://madhu.seas.harvard.edu/MIT/FT98/course.html or https://people.csail.mit.edu/madhu/FT05/
   (etc)                   
       https://minterscompactness.wordpress.com/lecture-notes/
       https://castel.dev/notes
       https://scholar.harvard.edu/rastern/course-notes
       http://www.sfu.ca/~jlevinso
 
-
-Papers
-  (proof of Jacobi triple product) https://www.ams.org/journals/proc/1965-016-02/S0002-9939-1965-0171725-X/S0002-9939-1965-0171725-X.pdf
-  (simple proof of Jacobi two squares identity) https://web.maths.unsw.edu.au/~mikeh/webpapers/paper21.pdf
-  (two theorems of Gauss) https://msp.org/pjm/1958/8-3/pjm-v8-n3-p19-s.pdf
-  (a proof of quadratic reciprocity) http://math.univ-lyon1.fr/~tchoudjem/ENSEIGNEMENT/PREPA_AGREG/corps_26oct.pdf
   
 Books
   Eberhard Freitag, Rolf Busam - Complex analysis
