@@ -44,6 +44,8 @@ $
 	\newcommand{\xforall}{\phantom{,}\forall}
 	\newcommand{\ov}{\overline}
 	\newcommand{\trace}{\text{trace}}
+	\newcommand{\Prod}{\displaystyle \prod}
+	\newcommand{\sub}{\subseteq}
 $
 </div>
 	
@@ -124,7 +126,7 @@ letting $1$ denote on and $0$ off, we find the equivalent formulation : let $T:F
 be the map $(x_{1},x_{2},x_{3}\dots,x_{n})\mapsto(x_{2},x_{1}+x_{3},x_{2}+x_{4},\dots,x_{n-1})$. 
 (i.e. given by the matrix $T_{ij}=\delta_{|i-j|=1}$). then $T$ is nilpotent iff $n+1$ is a power of two. this is what we'll show.
 firstly, $Tx=0\implies x=0$ if $n$ is even, and $Tx=0\implies x=0\text{ or }x=(1,0,1,\dots,0,1)$ if $n$ is odd. 
-so $T$ is invertible iff $n$ is even. given the base case $T_{n=1}=0$, it suffices to show : $T_{n}$ is nilpotent iff $T_{2n+1}$ is nilpotent.
+so $T$ is invertible iff $n$ is even. given the base case $T_{n=1}=0$, it suffices to show that  $T_{n}$ is nilpotent iff $T_{2n+1}$ is nilpotent.
 we give three solutions.
 <br>
 <br>	
@@ -161,7 +163,34 @@ by linearity, $T_{2n+1}$ is nilpotent.
 </div>
 <br>
 <br>
-
+theorem (Dickson). if $x_n $ is a sequence in $\N^d$ then there exists $i < j$ such that $x_i\le x_j$ in each of the $d$ coordinates. 
+<br>
+equivalently, given a sequence of monomials $m_n$ in the variables $x_1,\dots,x_d$ there exists $i < j$ such that $m_i\mid m_j$.
+<br>
+equivalently, any subset $S\sub\N^d$ may be covered by a finite number of positive orthants, whose apexes all belong to $S$.
+<br>
+<br>
+we'll now prove Dickson's lemma (and generalize it) using the notion of a preorder.
+<br>
+definition. a preorder $\preceq$ is a reflexive transitive relation on a set $X$.
+<br>
+<br>
+exercise. let $\preceq$ be a preorder on $X$ and define $x\sim y$ whenever $x\preceq y$ and $y\preceq x$. then $\sim$ is an equivalence 
+relation. moreover, defining $[x]\le [y]$ iff $x\preceq y$ is a well defined order on $X/\sim$.  
+<br>
+<br>
+definition. a well preorder $\preceq$ of a set $X$ is a preorder such that tfec hold : <br>
+$\bullet$ any infinite sequence $x_1,x_2,x_3,\dots$ must increase, namely there's a pair $i < j$ with $x_i\preceq x_j$. <br>
+$\bullet$ any infinite sequence $x_1,x_2,x_3,\dots$ must contain a increasing subsequence, namely there's 
+$x_{n_1}\preceq x_{n_2}\preceq x_{n_3}\preceq \dots$ for some $n_1 < n_2 < n_3 < \dots$.
+<br>
+<br>
+observation & definition. let $(X_i,\preceq_i)$ be preorders, $X=\Prod_i X_i$. then $(x_i)_i \preceq (y_i)_i$ iff $x_i\preceq_i y_i$ for all $i$ is a preorder on $X$ called the product preorder.
+<br>
+<br>
+exercise. if $X_1,\dots,X_k$ are well preorders then so is $X_1\times\dots\times X_k$. in particular, Dickson's theorem follows.
+<br>
+<br>
 </html>
 
 
