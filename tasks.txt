@@ -3,6 +3,7 @@ include the following :
   putnam 2021 b5
   schur's proof of cyclotomic irreducibility [4 p7]
   frobenius endomorphism proof of cyclotomic irreducibility [5 p10]
+  stars and bars + relate with number of weakly increasing sequences and give another solution by mapping a1<=... to a1+0,a2+1,a3+2,...
   
 read the following : 
   proof of Jacobi's r_4 formula by Zeilberger [2]
