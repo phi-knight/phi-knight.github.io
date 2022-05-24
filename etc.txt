@@ -42,3 +42,4 @@ https://icerm.brown.edu/video_archive
 (math sounds) https://drive.google.com/file/d/1sSkrVcKM-Ru0X_IPNvAZF7AnNSB8a0be/view
 (straight from the book) http://www.hexagon.edu.vn/images/resources/upload/48f705559d5da29b51bb76fc555d8c3c/problems-from-the-book-1-pdf_1380724174.pdf
 https://freedommathdance.blogspot.com/
+(combinatorial species) https://math.uchicago.edu/~tghyde/Hyde%20--%20Combinatorial%20species%20and%20generating%20functions.pdf
