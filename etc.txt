@@ -15,11 +15,13 @@ Course notes
   (probability theory)    https://web.stanford.edu/class/stats310c/NOTES/lnotes.pdf
   (toric varieties)       https://dacox.people.amherst.edu/lectures/coxcimpa.pdf
   (computational algebra) http://madhu.seas.harvard.edu/MIT/FT98/course.html or https://people.csail.mit.edu/madhu/FT05/
-  (etc)                   
+  (etc)                 
+      https://math.uchicago.edu/~tghyde/Notes.html
       https://minterscompactness.wordpress.com/lecture-notes/
       https://castel.dev/notes
       https://scholar.harvard.edu/rastern/course-notes
       http://www.sfu.ca/~jlevinso
+      
 
   
 Books
