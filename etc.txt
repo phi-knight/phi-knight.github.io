@@ -17,6 +17,7 @@ Course notes
   (computational algebra) http://madhu.seas.harvard.edu/MIT/FT98/course.html or https://people.csail.mit.edu/madhu/FT05/
   (etc)                 
       https://math.uchicago.edu/~tghyde/Notes.html
+      https://web.stanford.edu/~viviank/#notes
       https://minterscompactness.wordpress.com/lecture-notes/
       https://castel.dev/notes
       https://scholar.harvard.edu/rastern/course-notes
