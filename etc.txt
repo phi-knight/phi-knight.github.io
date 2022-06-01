@@ -21,6 +21,7 @@ Course notes
       https://castel.dev/notes
       https://scholar.harvard.edu/rastern/course-notes
       http://www.sfu.ca/~jlevinso
+      https://ktiml.mff.cuni.cz/~gregor/hypercube/
       
 
   
