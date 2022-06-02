@@ -1,6 +1,7 @@
 Course notes
   (AMS)                   https://www.ams.org/open-math-notes/
   (Chua)                  https://dec41.user.srcf.net/notes/
+  (Harvard)               https://github.com/Dongryul-Kim/harvard_notes
   (Garza)                 dzackgarza.com/writing/
   (Milne)                 https://www.jmilne.org/math/CourseNotes/index.html
   (Gareth)                https://tartarus.org/gareth/maths/notes/
@@ -24,6 +25,7 @@ Course notes
       http://www.sfu.ca/~jlevinso
       https://ktiml.mff.cuni.cz/~gregor/hypercube/
       https://math.uga.edu/directory/people/roy-smith
+      
       
 
   
