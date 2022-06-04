@@ -12,6 +12,8 @@ read the following :
   two theorems of gauss [7]
   jacobi triple product [8]
   simple proof of Jacobi two squares [9]
+  amm Problem 10476 - S. T. Stefanov (Bulgaria)
+
 
 references :
 [1] https://www.math.bgu.ac.il/~oshalit/SneakyProofMaxPrincipleAMM_2ndRevision.pdf
