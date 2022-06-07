@@ -26,6 +26,8 @@ Course notes
       http://www.sfu.ca/~jlevinso
       https://ktiml.mff.cuni.cz/~gregor/hypercube/
       https://math.uga.edu/directory/people/roy-smith
+      https://math.mit.edu/~fgotti/docs/Courses/Combinatorial%20Analysis/
+
       
       
 
